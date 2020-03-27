@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("submit").addEventListener("click", function(event) {
     event.preventDefault();
-    console.log(1);
+    console.log(input);
     // task.innerText = input;
     tasks.appendChild(task);
   });
