@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let input = document.getElementById("new-task-description").value;
     
     event.preventDefault();
-    tasks.appendChild(task).innerText = input;
+    tasks.append(task).innerText = input;
   });
 });
