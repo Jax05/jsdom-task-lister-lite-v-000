@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let input = document.getElementById("new-task-description").innerText;
+  let input = document.getElementById("new-task-description").select;
   let tasks = document.getElementById("tasks");
   let task = document.createElement("li");
 
