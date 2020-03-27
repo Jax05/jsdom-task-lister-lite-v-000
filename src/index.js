@@ -4,9 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("submit").addEventListener("click", function(event) {
     let input = document.getElementById("new-task-description").value;
+    
     event.preventDefault();
-    console.log(input);
-    // task.innerText = input;
-    tasks.appendChild(task);
+    tasks.appendChild(task).innerText = input;
   });
 });
