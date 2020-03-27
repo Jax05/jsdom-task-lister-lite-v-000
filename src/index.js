@@ -1,5 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   let input = document.getElementById("new-task-description").value;
+  let tasks = document.getElementById("tasks");
+  let task = document.createElement("li")
 
-  // on submit, add a list element to #list#tasks equal to input
+  document.getElementById("submit").addEventListener("click", function(event) {
+    event.preventDefault();
+    tasks.appendChild(task.innerHTML(input));
+  });
 });
